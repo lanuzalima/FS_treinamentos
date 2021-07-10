@@ -1,0 +1,39 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 20px 20px;
+  color: rgba(0,0,0,0.3);
+  
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 20px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+
+#logo {
+  width: 60px;
+}
+
+.contato {
+  background-color: rgb(231, 231, 233);
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 80px;
+  width: 1000px;
+  margin: auto;
+  border-radius: 2px;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 20%);
+}

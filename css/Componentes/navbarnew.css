@@ -1,0 +1,28 @@
+.nav {
+  justify-content: space-around;
+  background: white;
+  flex-grow: 0;
+}
+
+.nav-link{
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
+  text-decoration-style: none;
+  margin-left: 20px;
+  
+}
+
+.a.nav-link {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
+  
+}
+
+.nav img {
+  width: 50px;
+  padding-bottom: 20px;
+}
